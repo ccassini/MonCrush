@@ -1,0 +1,44 @@
+@font-face {
+  font-family: "Press Start 2p";
+}
+
+body {
+  overflow: hidden;
+  font-family: "Press Start 2p";
+  margin: 0;
+  padding: 0;
+}
+
+#container {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+/* Basic button styles */
+.button {
+  display: flex;
+  color: white;
+  font-size: 15px;
+  text-shadow: 1px 1px black;
+  cursor: pointer;
+  border-radius: 5px;
+  margin: 5px 10px;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 16px;
+  background: linear-gradient(145deg, #4a90e2, #357abd);
+  border: none;
+  transition: all 0.3s ease;
+}
+
+.button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.button:active {
+  transform: translateY(0);
+}
+
+

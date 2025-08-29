@@ -1,0 +1,42 @@
+{
+  "name": "monanimal-crush",
+  "version": "0.1.0",
+  "description": "Monanimal Crush - Match-3 Puzzle Game on Monad",
+  "author": "developer@monad-games.com",
+  "homepage": ".",
+  "dependencies": {
+    "@privy-io/cross-app-connect": "^0.2.3",
+    "@privy-io/react-auth": "^2.21.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^7.8.2",
+    "react-scripts": "5.0.1"
+  },
+  "scripts": {
+    "build": "set \"GENERATE_SOURCEMAP=false\" && react-scripts build",
+    "build:analyze": "npm run build && npx webpack-bundle-analyzer build/static/js/*.js",
+    "start": "react-scripts start",
+    "eject": "react-scripts eject",
+    "vercel-build": "npm run build"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "overrides": {
+    "react-scripts": {
+      "webpack": "5.88.2"
+    }
+  },
+  "devDependencies": {
+    "@types/react": "^19.1.12",
+    "@types/react-dom": "^19.1.8",
+    "typescript": "^4.9.5",
+    "webpack-bundle-analyzer": "^4.10.1"
+  }
+}
