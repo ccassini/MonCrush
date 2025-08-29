@@ -1,6 +1,6 @@
-# 🎮 MonanimalCrush Onchain Score System - COMPLETED! ✅
+#  MonanimalCrush Onchain Score System - COMPLETED! ✅
 
-## 🎯 **Project Status: FULLY DEPLOYED AND FUNCTIONAL**
+##  **Project Status: FULLY DEPLOYED AND FUNCTIONAL**
 
 The MonanimalCrush onchain score system has been successfully deployed to Monad Testnet and is ready for players!
 
@@ -28,7 +28,7 @@ The MonanimalCrush onchain score system has been successfully deployed to Monad 
 - **Combo System**: Multiplier bonuses for consecutive matches
 - **Blockchain Integration**: Automatic score recording on every match
 
-## 🎮 **How to Play & Test**
+##  **How to Play & Test**
 
 ### **1. Start the Game**
 ```bash
