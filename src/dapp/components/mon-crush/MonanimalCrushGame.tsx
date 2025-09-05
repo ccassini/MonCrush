@@ -11,6 +11,7 @@ import purpleCandy from './images/purple-candy.png';
 import redCandy from './images/red-candy.png';
 import yellowCandy from './images/yellow-candy.png';
 import blank from './images/blank.png';
+import background from './images/background.png';
 
 const width = 8;
 const candyColors = [
